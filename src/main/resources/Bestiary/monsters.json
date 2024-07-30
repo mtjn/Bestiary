@@ -9512,7 +9512,7 @@
         {
           "min_asc": 0,
           "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
-          "notes": "Will enrage once dropped beneath 50% hp.",
+          "notes": "Will use #wAnger immediately after reaching 50% or lower HP.",
           "hp": "(420 HP)",
           "moves": [
             {
@@ -9603,7 +9603,7 @@
         {
           "min_asc": 4,
           "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
-          "notes": "Will enrage once dropped beneath 50% hp.",
+          "notes": "Will use #wAnger immediately after reaching 50% or lower HP.",
           "hp": "(420 HP)",
           "moves": [
             {
@@ -9694,7 +9694,7 @@
         {
           "min_asc": 9,
           "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
-          "notes": "Will enrage once dropped beneath 50% hp.",
+          "notes": "Will use #wAnger immediately after reaching 50% or lower HP.",
           "hp": "(440 HP)",
           "moves": [
             {
@@ -9785,7 +9785,7 @@
         {
           "min_asc": 19,
           "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-30 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
-          "notes": "Will enrage once dropped beneath 50% hp.",
+          "notes": "Will use #wAnger immediately after reaching 50% or lower HP.",
           "hp": "(440 HP)",
           "moves": [
             {
