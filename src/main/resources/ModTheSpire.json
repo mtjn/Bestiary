@@ -1,7 +1,7 @@
 {
-  "modid": "${modId}",
+  "modid": "${modID}",
   "name": "${name}",
-  "author_list": ["ojb", "mtjn"],
+  "author_list": ["mtjn"],
   "description": "Shift + Right Click a monster while in combat to open an overlay detailing their attack patterns. Right click again to close this overlay. You can disable requiring shift in the Main Menu -> Mods -> Bestiary -> Config menu.\n\nController users can target a monster and press the open draw pile button (left trigger by default) to open the overlay, and the cancel button to close it.",
   "version": "${version}",
   "sts_version": "${SlayTheSpire.version}",
