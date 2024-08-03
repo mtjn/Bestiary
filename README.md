@@ -1,11 +1,11 @@
 # Bestiary
-Shift+Right click a monster while in combat to view its AI patterns and abilities. An overlay is provided for all vanilla monsters - across all ascension levels!
+Shift+Right click a monster while in combat to view its AI patterns and abilities. An overlay is provided for all vanilla monsters - across all ascension levels.
 
 ![Screenshot](github/example.png)
 
 ## Controller Support
 
-As of v0.1.2 - there should now be support for controller users to open the overlay! Target a monster using the D-Pad, and then press the "view draw pile" button (left trigger by default). To close the overlay, press the cancel button (B by default).
+Target a monster using the D-Pad, and then press the "view draw pile" button (left trigger by default). To close the overlay, press the cancel button (B by default).
 
 ## Config
 
@@ -15,16 +15,14 @@ You can disable the *Shift* key modifier requirement in the Main Menu -> Mods ->
 
 ## Installation
 
-* Steam Workshop Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2285965269
+* Steam Workshop Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3300708874
 
-* Manually: Requires ModTheSpire and BaseMod. Download the latest .jar file from the [Releases page](https://github.com/casey-c/bestiary/releases) and place it into the SlayTheSpire/mods folder.
+* Manually: Requires ModTheSpire and BaseMod. Download the latest .jar file from the [Releases page](https://github.com/mtjn/bestiary/releases) and place it into the SlayTheSpire/mods folder.
 
-## Bugs / Suggestions / Issues
+## Building locally
 
-Please leave feedback on the [Issues page](https://github.com/casey-c/bestiary/issues) if you run into any problems with the mod - especially missing or invalid details. This mod currently only supports the base game monsters as gathering the moveset data was extremely time consuming.
+Clone the github repository and run `mvn package` in the directory. Requires ModTheSpire and Basemod to be installed via Steam Workshop.
 
-I also welcome any other suggestions or ideas to improve the mod on that page as well. Thank you!
+## Credits
 
-## For Modders
-
-If you have a mod with custom monsters or AI patterns and are interested in getting support for your own work - please let me know on the [issues page](https://github.com/casey-c/bestiary/issues). I didn't bother to write an API to expose access to the overlay yet as I don't know if there would be any interest. Please check out the *monsters.json* file in the source code of this repository for an idea of what kind of effort you'll need to undertake to make it happen. As a fair warning: it's a bit tedious - but if you're interesting in tackling it (I won't write a JSON for you), please drop a line and I can hopefully write some code you can hook into!
+This mod was originally written by ojb/casey-c (https://github.com/casey-c/bestiary). As the mod no longer seemed to be maintained or updated, and some small fixes were missing from the Steam version, I cloned it. All credit goes to the original author.
