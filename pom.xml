@@ -60,7 +60,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/Bestiary.jar" tofile="/home/casey/.steam/steam/steamapps/common/SlayTheSpire/mods/Bestiary.jar"/>
+                                <copy file="target/Bestiary.jar" tofile="C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/mods/Bestiary.jar"/>
                             </target>
                         </configuration>
                         <goals>
