@@ -8,6 +8,7 @@ import Bestiary.utils.SoundHelper;
 import basemod.BaseMod;
 import basemod.ReflectionHacks;
 import basemod.interfaces.PostInitializeSubscriber;
+import basemod.interfaces.PostRenderSubscriber;
 import basemod.interfaces.RenderSubscriber;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
@@ -85,6 +86,9 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
         System.out.println("Currently hovered on: " + id);
         SoundHelper.openSound();
         overlay.setCurrMonsterByID(id);
+        AbstractRoom current_room = AbstractDungeon.getCurrRoom();
+        current_room.monsters.hoveredMonster = null;
+        current_room.monsters.monsters.forEach(m -> m.hb.unhover());
         showOverlay = true;
     }
 
