@@ -26,22 +26,22 @@ public class MonsterInfoRenderHelper {
     // --------------------------------------------------------------------------------
     // UI layout information (WIP - to be tweaked as needed)
 
-    private static final float movesLeft = MonsterOverlay.startX + (97 * Settings.scale);
-    private static final float titleBottom = 886.0f;
+    private static final float movesLeft = MonsterOverlay.startX + (96.0f * Settings.scale);
+    private static final float titleBottom = MonsterOverlay.startY + ((MonsterOverlay.texHeight - 96.0f) * Settings.scale);
 
-    private static final float firstMoveBottom = 780.0f;
-    private static final float movesVertSpacing = 80.0f;
+    private static final float firstMoveBottom = MonsterOverlay.startY + ((MonsterOverlay.texHeight - 200.0f) * Settings.scale);
+    private static final float movesVertSpacing = 80.0f * Settings.scale;
 
     //private static final float firstMoveEffectLeft = movesLeft + 170.0f;
-    private static final float additionalMoveEffectPadding = 40.0f;
-    private static final float moveEffectHorizSpacing = 50.0f;
+    private static final float additionalMoveEffectPadding = 40.0f * Settings.scale;
+    private static final float moveEffectHorizSpacing = 50.0f * Settings.scale;
 
-    private static final float descLeft = Settings.WIDTH - MonsterOverlay.startX - (616 * Settings.scale);
-    private static final float descTop = 847.0f;
-    private static final float notesTop = 334.0f;
+    private static final float descLeft = MonsterOverlay.startX + (MonsterOverlay.texWidth * 0.55f * Settings.scale) + (96.0f * Settings.scale);
+    private static final float descTop = MonsterOverlay.startY + ((MonsterOverlay.texHeight - 100.0f) * Settings.scale);
+    private static final float notesTop = MonsterOverlay.startY + ((MonsterOverlay.texHeight - 700.0f) * Settings.scale);
 
-    private static final float descWidth = 534.0f;
-    private static final float descSpacing = 30.0f;
+    private static final float descWidth = (MonsterOverlay.texWidth * 0.45f * Settings.scale) - (96.0f * Settings.scale * 2.0f);
+    private static final float descSpacing = 30.0f * Settings.scale;
 
     // --------------------------------------------------------------------------------
 

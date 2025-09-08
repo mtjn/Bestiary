@@ -26,7 +26,7 @@ public class Label {
     }
 
     public void render(SpriteBatch sb) {
-        FontHelper.renderFontLeftDownAligned(sb, font, text, x * Settings.scale, y * Settings.scale, color);
+        FontHelper.renderFontLeftDownAligned(sb, font, text, x, y, color);
     }
 
     public float getTextWidth() { return textWidth; }
